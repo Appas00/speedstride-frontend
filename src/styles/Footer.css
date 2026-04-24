@@ -1,0 +1,80 @@
+/* src/styles/Footer.css (Ultra Simple Text-Only) */
+.footer {
+  background: #0f172a;
+  color: #e2e8f0;
+  margin-top: auto;
+  border-top: 1px solid rgba(184, 151, 58, 0.15);
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 45px 6% 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-brand {
+  text-align: left;
+}
+
+.brand-name {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.footer-brand p {
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+.footer-nav,
+.footer-support {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-nav a,
+.footer-support a {
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover,
+.footer-support a:hover {
+  color: #b8973a;
+}
+
+.footer-copyright {
+  text-align: center;
+  padding: 18px 6%;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  font-size: 0.7rem;
+  color: #64748b;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footer-brand {
+    text-align: center;
+  }
+  
+  .footer-nav,
+  .footer-support {
+    justify-content: center;
+  }
+}

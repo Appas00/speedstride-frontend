@@ -1,0 +1,150 @@
+.order-success-page {
+  min-height: 100vh;
+  background: #f8f7f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 20px;
+}
+
+.success-container {
+  background: #ffffff;
+  border-radius: 28px;
+  padding: 50px 40px;
+  max-width: 550px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid #e9edf2;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+  animation: fadeInUp 0.6s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.success-icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.success-container h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 2rem;
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+.success-container > p {
+  color: #94a3b8;
+  margin-bottom: 30px;
+}
+
+.order-details {
+  background: #f8f7f4;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.order-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.order-info:last-child {
+  border-bottom: none;
+}
+
+.order-info span {
+  color: #64748b;
+}
+
+.order-info strong {
+  color: #0f172a;
+}
+
+.delivery-info {
+  text-align: left;
+  background: #f8f7f4;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.delivery-info h3 {
+  font-size: 1rem;
+  color: #b8973a;
+  margin-bottom: 12px;
+}
+
+.delivery-info p {
+  color: #0f172a;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+
+.items-summary {
+  text-align: left;
+  background: #f8f7f4;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.items-summary h3 {
+  font-size: 1rem;
+  color: #b8973a;
+  margin-bottom: 12px;
+}
+
+.success-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 0.85rem;
+  color: #0f172a;
+}
+
+.success-item:last-child {
+  border-bottom: none;
+}
+
+.continue-shopping-btn {
+  background: #0f172a;
+  color: #f8f7f4;
+  padding: 14px 32px;
+  border: none;
+  border-radius: 100px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+.continue-shopping-btn:hover {
+  background: #b8973a;
+  color: #0f172a;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 640px) {
+  .success-container {
+    padding: 30px 20px;
+  }
+  
+  .success-container h1 {
+    font-size: 1.5rem;
+  }
+}
